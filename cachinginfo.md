@@ -2,7 +2,7 @@
 
 ## *Why is caching needed?*
 
-What if we try to want some value from large memory but is takes good amount of time or what if we want to load a page but it take a lot of time. Now if we have to access that data and page many times as per requirements? we will be frustrated. Right? we users and developers always wants our requests to process as fast as possible. Cashing provides us the techniques to improve performane and process requests as fast as possible.
+What if we try to want some value from large memory but is takes good amount of time or what if we want to load a page but it take a lot of time. Now if we have to access that data and page many times as per requirements? we will be frustrated. Right? we users and developers always wants our requests to process as fast as possible. Cashing provides us the techniques to improve performance and process requests as fast as possible.
 
 ## *Lets know what is Caching ?*
 
@@ -22,7 +22,7 @@ we can say that cache is the temporary storage location for copies of the files 
         Lazy Evaluation : 
         In this first we check if data requested is already in cache . If not, then read it from the system and store in cache. Through this techniques copies of data get stored in cache. 
 
-## 2. Keep Cache and Remote System in sync
+## 2. **Keep Cache and Remote System in sync**
 
     When Cache and Remote are in sync,means that data and structure is same and if they are not in sync, it may give us wrong data in return. Techniques :
 
@@ -35,7 +35,7 @@ we can say that cache is the temporary storage location for copies of the files 
         Active Expiry :
         This refers to expire the data from the cache if the same data is modified in remote system. It is necessary to remove wrong data from cacche time to time. This helps in making cache up-to-date as fast as possible. For this to happen it is necessary to detect modified data.
 
-## 3. Managing Cache Size
+## 3. **Managing Cache Size**
 
     We cannot store everthing in cache. System have so much data stored, that all of that can never be stored in cache.We manage cache size by evicting data from cache.Standard eviction techniques are:
         ->  Time Based Eviction : 
