@@ -1,4 +1,4 @@
-# CASHING APPROACHES
+# CACHING APPROACHES
 
 ## *Why is caching needed?*
 
